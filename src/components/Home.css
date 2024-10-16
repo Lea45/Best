@@ -1,0 +1,132 @@
+/* Root variables for colors */
+:root {
+  --primary-bg-color: #ede8f5;
+  --primary-text-color: #3d52a0;
+  --header-shadow-color: #7091e6;
+  --info-card-bg-color: #adbbda;
+  --info-card-text-color: #ede8f5;
+  --info-card-shadow-color: #7091e6;
+  --info-card-heading-color: black;
+  --description-text-color: black;
+  --contact-info-text-color: black;
+}
+
+/* Home section */
+.home-section {
+  padding: 120px 20px;
+  background-color: var(--primary-bg-color);
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Header image section */
+.header-image {
+  position: relative;
+  background-image: url("../assets/coffee.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  font-size: 4.2rem;
+  color: var(--primary-text-color);
+  font-family: "Inknut Antiqua", serif;
+  position: absolute;
+  z-index: 1;
+  text-shadow: 0 8px 20px var(--header-shadow-color);
+}
+
+/* Info card */
+.info-card {
+  background-color: var(--info-card-bg-color);
+  padding: 30px 40px;
+  max-width: 1000px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px var(--info-card-shadow-color);
+  text-align: left;
+  color: var(--info-card-text-color);
+  font-family: "Inknut Antiqua", serif;
+  margin: 70px auto;
+  margin-bottom: 0;
+}
+
+.info-card h2 {
+  font-size: 2rem;
+  color: var(--info-card-heading-color);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.info-card .description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--description-text-color);
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.contact-info {
+  font-size: 1rem;
+  color: var(--contact-info-text-color);
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.contact-info p strong {
+  color: var(--contact-info-text-color);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .home-section {
+    margin-top: 130px;
+  }
+
+  .header-image {
+    margin-top: 20px;
+    max-width: 100%;
+    aspect-ratio: 4 / 3;
+  }
+
+  .header-text {
+    font-size: 3rem;
+  }
+
+  .info-card {
+    max-width: 100%;
+    width: 80%;
+    padding: 20px;
+  }
+
+  .info-card h2 {
+    font-size: 2rem;
+  }
+
+  .info-card .description {
+    font-size: 1.1rem;
+  }
+
+  .contact-info {
+    font-size: 0.9rem;
+  }
+}
+
+/* Styles for tablet devices */
+@media (min-width: 769px) and (max-width: 1124px) {
+  .info-card {
+    max-width: 100%;
+    width: 80%;
+    padding: 20px;
+  }
+}

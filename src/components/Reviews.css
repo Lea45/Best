@@ -1,0 +1,84 @@
+.reviews {
+  padding: 150px 20px;
+  background-color: #ede8f5;
+  min-height: 100vh;
+}
+.reviews-container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: #adbbda;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px #7091e6;
+  font-family: "Inknut Antiqua", serif;
+}
+
+/* Form Styling */
+.review-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.review-form input,
+.review-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #adbbda;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #ede8f5;
+}
+
+.review-form button {
+  background-color: #8697c4;
+  color: #ede8f5;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.review-form button:hover {
+  background-color: #3d52a0;
+}
+
+/* Reviews List */
+.reviews-list h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.review-item {
+  padding: 15px;
+  background-color: #ede8f5;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-item h4 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.review-item p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.review-item small {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .reviews-container {
+    margin-top: 120px;
+    max-width: 80%;
+  }
+}

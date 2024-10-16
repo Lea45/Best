@@ -1,0 +1,137 @@
+:root {
+  --primary-color: #8697c4;
+  --background-color: #ede8f5;
+  --card-color: #adbbda;
+  --shadow-color: #7091e6;
+  --text-color: #333;
+}
+
+.all {
+  background-color: var(--background-color);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Pricelist Container */
+.pricelist-container {
+  padding: 20px;
+  background-color: var(--card-color);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px var(--shadow-color);
+  max-width: 700px;
+  width: 100%;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  font-family: "Inknut Antiqua", serif;
+  transition: transform 0.3s ease;
+}
+
+.pricelist-container h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.pricelist-container:hover {
+  transform: translateY(-10px);
+}
+
+/* Category List */
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.category-item {
+  padding: 15px 25px;
+  background-color: var(--card-color);
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+.category-item:hover {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: 0 8px 20px var(--shadow-color);
+  transform: translateY(-5px);
+}
+
+/* Pricelist Items */
+.pricelist-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.pricelist-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background-color: var(--card-color);
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.pricelist-item:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateX(10px);
+  box-shadow: 0 8px 20px var(--shadow-color);
+}
+
+.pricelist-item span:first-child {
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.pricelist-item span:last-child {
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+/* Media Queries (Mobile) */
+@media (max-width: 768px) {
+  .pricelist-container {
+    padding: 15px;
+    max-width: 90%;
+    margin-top: 220px;
+    margin-bottom: 20px;
+  }
+
+  .category-item {
+    padding: 12px;
+  }
+
+  .pricelist-item {
+    padding: 12px;
+  }
+
+  h2.pricelist-container,
+  .pricelist-container h3 {
+    font-size: 1.5rem;
+  }
+
+  .pricelist-item span {
+    font-size: 1rem;
+  }
+}
+
+/* Media Queries (Tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .pricelist-container {
+    max-width: 90%;
+    margin-top: 120px;
+    margin-bottom: 50px;
+  }
+}
