@@ -51,12 +51,11 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 200px; /* Adjust height as needed */
+  height: 200px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Specific background images for each about image */
 .about-image.cafe-interior1 {
   background-image: url("../assets/best1.jpg");
 }
