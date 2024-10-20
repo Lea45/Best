@@ -46,7 +46,7 @@ const Reviews = () => {
             required
           />
           <textarea
-            placeholder="Write your review here..."
+            placeholder="Tell us your thoughts..."
             value={review}
             onChange={(e) => setReview(e.target.value)}
             required

@@ -1,0 +1,64 @@
+:root {
+  --navbar-bg-color: #4a5e87; /* Muted navy for navbar background */
+  --navbar-text-color: #ede8f5; /* Light text color for navbar */
+  --navbar-hover-color: #ffcc00; /* Accent color for hover states */
+  --menu-bg-color: #7091e6; /* Background color for the menu on mobile */
+  --menu-icon-color: #f4f4f4; /* Icon color for the hamburger menu */
+}
+
+.footer {
+  background-color: var(--navbar-bg-color);
+  color: var(--navbar-text-color);
+  padding: 25px 20px;
+  text-align: center;
+  font-family: "Esteban", serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: var(--navbar-text-color);
+}
+
+.footer-section p,
+.footer-section ul {
+  font-size: 1rem;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: var(--navbar-text-color);
+  font-size: 1.5rem;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: var(--navbar-hover-color);
+}
+
+.footer-copy {
+  margin-top: 30px;
+  font-size: 0.9rem;
+}

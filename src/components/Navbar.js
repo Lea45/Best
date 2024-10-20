@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaCoffee } from "react-icons/fa"; // Importing FontAwesome icon
+import { FaCoffee } from "react-icons/fa";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false); // State to track if the menu is open
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setMenuOpen(!menuOpen); // Toggle the menuOpen state
+    setMenuOpen(!menuOpen);
   };
 
   return (
