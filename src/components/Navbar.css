@@ -64,6 +64,7 @@
   .navbar {
     height: 98px;
     justify-content: space-between;
+    background-color: var(--navbar-bg-color);
   }
   .coffee-icon {
     font-size: 2.5rem;
