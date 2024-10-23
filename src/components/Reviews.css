@@ -86,7 +86,7 @@
 /* Responsive styles */
 @media (max-width: 768px) {
   .reviews-container {
-    margin-top: 30px;
-    max-width: 80%;
+    margin-top: 25px;
+    max-width: 90%;
   }
 }

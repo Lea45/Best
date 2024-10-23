@@ -19,8 +19,8 @@
   background-color: var(--card-color);
   border-radius: 16px;
   box-shadow: 0 8px 20px var(--shadow-color);
-  max-width: 800px;
-  width: 50%;
+  max-width: 1200px;
+  width: 75%;
   margin-top: 120px;
   margin-bottom: 60px;
   font-family: "Esteban", serif;
@@ -103,10 +103,8 @@
 /* Responsive styles */
 @media (max-width: 768px) {
   .pricelist-container {
-    padding: 15px;
-    max-width: 80%;
-    margin-top: 170px;
-    margin-bottom: 20px;
+    max-width: 90%;
+    margin-top: 145px;
   }
 
   .category-item {

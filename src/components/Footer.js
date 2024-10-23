@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Follow Us</h3>
           <div className="social-icons">
-            <a href="#">
+            <a href="https://www.facebook.com/caffebar.best.351/?locale=hr_HR">
               <i className="fab fa-facebook"></i>
             </a>
             <a href="#">
