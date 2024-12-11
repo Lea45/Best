@@ -15,7 +15,7 @@ const Navbar = () => {
       {/* Left side: Coffee Icon and Text (only for mobile view) */}
       <div className="brand-container">
         <FaCoffee className="coffee-icon" />
-        <span className="brand-text">Best</span>
+        <span className="brand-text">Honey</span>
       </div>
 
       {/* Right side: Hamburger Menu */}

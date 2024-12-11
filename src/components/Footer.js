@@ -24,14 +24,14 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p>Trg kralja Tomislava 15, 31550 Valpovo</p>
-          <p>Phone: 091/721-4666</p>
-          <p>Email: tomica.best@gmail.com</p>
+          <p>Address: Avenue des Champs-Élysées, Paris</p>
+          <p>Phone: +33(0)15672385</p>
+          <p>Email: champs.honey@gmail.com</p>
         </div>
         <div className="footer-section">
           <h3>Follow Us</h3>
           <div className="social-icons">
-            <a href="https://www.facebook.com/caffebar.best.351/?locale=hr_HR">
+            <a href="#">
               <i className="fab fa-facebook"></i>
             </a>
             <a href="#">
